@@ -1,0 +1,47 @@
+.App {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.titleCard {
+	margin: 1em;
+}
+
+.content {
+	margin-bottom: 8em;
+}
+
+.title {
+	color: #000000;
+}
+
+.subtitle {
+	font-style: italic;
+	color: #46e0ff;
+}
+.field {
+	background-color: #8800ff;
+}
+
+.text {
+	text-align: left;
+	color: #000000;
+}
+
+.link {
+	color: #ff00ff;
+}
+
+.navbar {
+	position: fixed;
+   	top: 0px;
+	width: 100%;
+}
+
+p {
+	font-size: 95%;
+}
