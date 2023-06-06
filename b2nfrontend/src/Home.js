@@ -109,7 +109,7 @@ function Home() {
 
     //BACKEND GUIDE: https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7
 
-    axios.post('http://3.140.47.122', axiosInput)
+    axios.post('https://backend.imterrence.com', axiosInput)
         .then(function(response){
             console.log(response);
             playlists = response['data'];
